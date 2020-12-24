@@ -2,7 +2,7 @@ package src;
 
 import java.util.NoSuchElementException;
 
-public class CyLinkedList {
+public class LinkedListReverseAndFindKthNode {
 
     public class Node {
 
@@ -18,7 +18,7 @@ public class CyLinkedList {
     public Node last;
     public int size;
 
-    public CyLinkedList() {
+    public LinkedListReverseAndFindKthNode() {
         this.first = null;
         this.last = null;
         this.size = 0;

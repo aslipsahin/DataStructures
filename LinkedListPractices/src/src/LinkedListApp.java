@@ -5,7 +5,7 @@ public class LinkedListApp {
 
 //        ======= practice cyLinkedList addLast method =======
 
-        var cyLinkedList = new CyLinkedList();
+        var cyLinkedList = new LinkedListReverseAndFindKthNode();
         for (int j = 1; j <= 11; j++) cyLinkedList.addLast(j);
 
         System.out.println("Initial Linked List");
